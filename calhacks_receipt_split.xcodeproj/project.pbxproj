@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		937925CD218DB866005B87EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937925CC218DB866005B87EF /* AppDelegate.swift */; };
-		937925CF218DB866005B87EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937925CE218DB866005B87EF /* ViewController.swift */; };
+		937925CF218DB866005B87EF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937925CE218DB866005B87EF /* WelcomeViewController.swift */; };
 		937925D2218DB866005B87EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937925D0218DB866005B87EF /* Main.storyboard */; };
 		937925D5218DB866005B87EF /* calhacks_receipt_split.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 937925D3218DB866005B87EF /* calhacks_receipt_split.xcdatamodeld */; };
 		937925D7218DB868005B87EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937925D6218DB868005B87EF /* Assets.xcassets */; };
 		937925DA218DB868005B87EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937925D8218DB868005B87EF /* LaunchScreen.storyboard */; };
+		93DE1F9E218E4059007FD869 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1F9D218E4059007FD869 /* MainTableViewCell.swift */; };
+		93DE1FA0218E42A6007FD869 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1F9F218E42A6007FD869 /* Extensions.swift */; };
+		93DE1FA3218E4535007FD869 /* ProfileImagePlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE1FA2218E4535007FD869 /* ProfileImagePlaceholder.png */; };
+		93DE1FA5218E492A007FD869 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FA4218E492A007FD869 /* OrderViewController.swift */; };
+		93DE1FA7218E497F007FD869 /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FA6218E497F007FD869 /* UsersCollectionViewCell.swift */; };
+		93DE1FA9218E499F007FD869 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FA8218E499F007FD869 /* OrderTableViewCell.swift */; };
+		93DE1FB0218E6370007FD869 /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FAF218E6370007FD869 /* ReceiptItem.swift */; };
+		93DE1FB2218E6B69007FD869 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FB1218E6B69007FD869 /* Receipt.swift */; };
+		93DE1FB4218E6CA8007FD869 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE1FB3218E6CA8007FD869 /* User.swift */; };
+		D082098554A3D645673B63AB /* Pods_calhacks_receipt_split.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4127A87F12576B6687A30BD4 /* Pods_calhacks_receipt_split.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4127A87F12576B6687A30BD4 /* Pods_calhacks_receipt_split.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calhacks_receipt_split.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3CCEA6FCE229B882F3A46C /* Pods-calhacks_receipt_split.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calhacks_receipt_split.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calhacks_receipt_split/Pods-calhacks_receipt_split.debug.xcconfig"; sourceTree = "<group>"; };
+		7801FAE75882BE97C54454D6 /* Pods-calhacks_receipt_split.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calhacks_receipt_split.release.xcconfig"; path = "Pods/Target Support Files/Pods-calhacks_receipt_split/Pods-calhacks_receipt_split.release.xcconfig"; sourceTree = "<group>"; };
 		937925C9218DB866005B87EF /* calhacks_receipt_split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calhacks_receipt_split.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937925CC218DB866005B87EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		937925CE218DB866005B87EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		937925CE218DB866005B87EF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		937925D1218DB866005B87EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937925D4218DB866005B87EF /* calhacks_receipt_split.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calhacks_receipt_split.xcdatamodel; sourceTree = "<group>"; };
 		937925D6218DB868005B87EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937925D9218DB868005B87EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937925DB218DB868005B87EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DE1F9D218E4059007FD869 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		93DE1F9F218E42A6007FD869 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93DE1FA2218E4535007FD869 /* ProfileImagePlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileImagePlaceholder.png; sourceTree = "<group>"; };
+		93DE1FA4218E492A007FD869 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		93DE1FA6218E497F007FD869 /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+		93DE1FA8218E499F007FD869 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		93DE1FAF218E6370007FD869 /* ReceiptItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItem.swift; sourceTree = "<group>"; };
+		93DE1FB1218E6B69007FD869 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		93DE1FB3218E6CA8007FD869 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D082098554A3D645673B63AB /* Pods_calhacks_receipt_split.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE94FB95A17C85C8ACAA2F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A3CCEA6FCE229B882F3A46C /* Pods-calhacks_receipt_split.debug.xcconfig */,
+				7801FAE75882BE97C54454D6 /* Pods-calhacks_receipt_split.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		937925C0218DB866005B87EF = {
 			isa = PBXGroup;
 			children = (
 				937925CB218DB866005B87EF /* calhacks_receipt_split */,
 				937925CA218DB866005B87EF /* Products */,
+				2FE94FB95A17C85C8ACAA2F5 /* Pods */,
+				DD271608717CB9862450C1DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,64 @@
 		937925CB218DB866005B87EF /* calhacks_receipt_split */ = {
 			isa = PBXGroup;
 			children = (
+				93DE1F9F218E42A6007FD869 /* Extensions.swift */,
 				937925CC218DB866005B87EF /* AppDelegate.swift */,
-				937925CE218DB866005B87EF /* ViewController.swift */,
-				937925D0218DB866005B87EF /* Main.storyboard */,
+				93DE1FAE218E53B6007FD869 /* Views */,
+				93DE1FAA218E5188007FD869 /* Controllers */,
 				937925D6218DB868005B87EF /* Assets.xcassets */,
+				93DE1FAB218E51A2007FD869 /* Model */,
+				937925D0218DB866005B87EF /* Main.storyboard */,
 				937925D8218DB868005B87EF /* LaunchScreen.storyboard */,
 				937925DB218DB868005B87EF /* Info.plist */,
+				93DE1FA1218E451E007FD869 /* Resources */,
 				937925D3218DB866005B87EF /* calhacks_receipt_split.xcdatamodeld */,
 			);
 			path = calhacks_receipt_split;
+			sourceTree = "<group>";
+		};
+		93DE1FA1218E451E007FD869 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93DE1FA2218E4535007FD869 /* ProfileImagePlaceholder.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93DE1FAA218E5188007FD869 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				937925CE218DB866005B87EF /* WelcomeViewController.swift */,
+				93DE1F9D218E4059007FD869 /* MainTableViewCell.swift */,
+				93DE1FA6218E497F007FD869 /* UsersCollectionViewCell.swift */,
+				93DE1FA8218E499F007FD869 /* OrderTableViewCell.swift */,
+				93DE1FA4218E492A007FD869 /* OrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		93DE1FAB218E51A2007FD869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93DE1FAF218E6370007FD869 /* ReceiptItem.swift */,
+				93DE1FB1218E6B69007FD869 /* Receipt.swift */,
+				93DE1FB3218E6CA8007FD869 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93DE1FAE218E53B6007FD869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD271608717CB9862450C1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4127A87F12576B6687A30BD4 /* Pods_calhacks_receipt_split.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 937925DE218DB868005B87EF /* Build configuration list for PBXNativeTarget "calhacks_receipt_split" */;
 			buildPhases = (
+				A2D280D1ABAAD11C226E48F3 /* [CP] Check Pods Manifest.lock */,
 				937925C5218DB866005B87EF /* Sources */,
 				937925C6218DB866005B87EF /* Frameworks */,
 				937925C7218DB866005B87EF /* Resources */,
+				1DDA1DDC003C537DC385BC14 /* [CP] Embed Pods Frameworks */,
+				95C660E5710CC78785598648 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937925DA218DB868005B87EF /* LaunchScreen.storyboard in Resources */,
+				93DE1FA3218E4535007FD869 /* ProfileImagePlaceholder.png in Resources */,
 				937925D7218DB868005B87EF /* Assets.xcassets in Resources */,
 				937925D2218DB866005B87EF /* Main.storyboard in Resources */,
 			);
@@ -133,14 +220,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DDA1DDC003C537DC385BC14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-calhacks_receipt_split/Pods-calhacks_receipt_split-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/WeScan/WeScan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeScan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calhacks_receipt_split/Pods-calhacks_receipt_split-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C660E5710CC78785598648 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calhacks_receipt_split/Pods-calhacks_receipt_split-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D280D1ABAAD11C226E48F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calhacks_receipt_split-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		937925C5218DB866005B87EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937925CF218DB866005B87EF /* ViewController.swift in Sources */,
+				93DE1FA0218E42A6007FD869 /* Extensions.swift in Sources */,
+				937925CF218DB866005B87EF /* WelcomeViewController.swift in Sources */,
+				93DE1FA9218E499F007FD869 /* OrderTableViewCell.swift in Sources */,
 				937925D5218DB866005B87EF /* calhacks_receipt_split.xcdatamodeld in Sources */,
+				93DE1FB2218E6B69007FD869 /* Receipt.swift in Sources */,
+				93DE1FA7218E497F007FD869 /* UsersCollectionViewCell.swift in Sources */,
+				93DE1F9E218E4059007FD869 /* MainTableViewCell.swift in Sources */,
 				937925CD218DB866005B87EF /* AppDelegate.swift in Sources */,
+				93DE1FB0218E6370007FD869 /* ReceiptItem.swift in Sources */,
+				93DE1FA5218E492A007FD869 /* OrderViewController.swift in Sources */,
+				93DE1FB4218E6CA8007FD869 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +435,13 @@
 		};
 		937925DF218DB868005B87EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3CCEA6FCE229B882F3A46C /* Pods-calhacks_receipt_split.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SQ44YK5BM;
 				INFOPLIST_FILE = calhacks_receipt_split/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +455,13 @@
 		};
 		937925E0218DB868005B87EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7801FAE75882BE97C54454D6 /* Pods-calhacks_receipt_split.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SQ44YK5BM;
 				INFOPLIST_FILE = calhacks_receipt_split/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
